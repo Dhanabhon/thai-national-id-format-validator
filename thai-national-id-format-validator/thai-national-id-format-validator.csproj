@@ -1,10 +1,36 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>thai_national_id_format_validator</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>Thai National ID Format Validator</Title>
+    <RepositoryUrl>https://github.com/Dhanabhon/thai-national-id-format-validator</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Copyright>https://github.com/Dhanabhon/thai-national-id-format-validator/blob/main/LICENSE</Copyright>
+    <Description>Thai national ID format validation.</Description>
+    <PackageProjectUrl>https://github.com/Dhanabhon/thai-national-id-format-validator</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>Thai National ID Format, Validator,</PackageTags>
+    <PackageReleaseNotes>- Fix bug where the IsValid method.</PackageReleaseNotes>
+    <PackAsTool>True</PackAsTool>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\GitHub\thai-national-id-format-validator\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\..\..\GitHub\thai-national-id-format-validator\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

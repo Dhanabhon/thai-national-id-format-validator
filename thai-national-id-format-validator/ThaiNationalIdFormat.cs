@@ -4,7 +4,7 @@ namespace thai_national_id_format_validator
 {
     public class ThaiNationalIdFormat
     {
-        public static bool IsValidate(string id)
+        public static bool IsValid(string id)
         {
             if (!Regex.IsMatch(id, @"^[0-9]{13}$"))
                 return false;

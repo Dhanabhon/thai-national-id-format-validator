@@ -38,9 +38,9 @@
             this.lblThaiID.AutoSize = true;
             this.lblThaiID.Location = new System.Drawing.Point(12, 9);
             this.lblThaiID.Name = "lblThaiID";
-            this.lblThaiID.Size = new System.Drawing.Size(191, 21);
+            this.lblThaiID.Size = new System.Drawing.Size(197, 21);
             this.lblThaiID.TabIndex = 0;
-            this.lblThaiID.Text = "Enter you Thai national ID:";
+            this.lblThaiID.Text = "Enter your Thai national ID:";
             // 
             // tbxThaiID
             // 

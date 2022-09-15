@@ -11,7 +11,7 @@ namespace thai_national_id_format_validator_demo
 
         private void tbxThaiID_TextChanged(object sender, EventArgs e)
         {
-            if (ThaiNationalIdFormat.IsValidate(tbxThaiID.Text))
+            if (ThaiNationalIdFormat.IsValid(tbxThaiID.Text))
             {
                 lblResult.Text = "Valid";
                 lblResult.ForeColor = Color.Green;
