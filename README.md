@@ -9,7 +9,7 @@ using using thai_national_id_format_validator;
 ```
 2. Example code
 ```C#
-bool isValid = ThaiNationalIdFormat.IsValidate("1234567891012");
+bool isValid = ThaiNationalIdFormat.IsValid("1234567891012");
 ```
 
 ## Demo
