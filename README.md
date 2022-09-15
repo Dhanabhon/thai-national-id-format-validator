@@ -13,7 +13,7 @@ bool isValid = ThaiNationalIdFormat.IsValid("1234567891012");
 ```
 
 ## Demo
-![Screenshot](https://github.com/Dhanabhon/thai-national-id-format-validator/blob/main/ss.png)
+![Screenshot](https://raw.githubusercontent.com/Dhanabhon/thai-national-id-format-validator/master/ss.png)
 
 ## NuGet Link
 [NuGet](https://www.nuget.org/packages/thai-national-id-format-validator/)
