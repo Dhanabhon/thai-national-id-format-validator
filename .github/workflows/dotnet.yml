@@ -1,4 +1,4 @@
-name: .NET
+name: Publish to NuGet
 
 on:
   push:
@@ -7,19 +7,13 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
-
+  publish:
+    name: build, pack & publish
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v2
+    - name: publish on version change
+      id: publish_nuget
+      uses: brandedoutcast/publish-nuget@v2
       with:
-        dotnet-version: 6.0.x
-    - name: Restore dependencies
-      run: dotnet restore
-    - name: Build
-      run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+        PROJECT_FILE_PATH: thai-national-id-format-validator/thai-national-id-format-validator.csproj
