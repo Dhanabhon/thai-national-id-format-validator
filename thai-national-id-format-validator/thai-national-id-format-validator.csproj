@@ -23,11 +23,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\GitHub\thai-national-id-format-validator\LICENSE">
+    <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\..\..\..\GitHub\thai-national-id-format-validator\README.md">
+    <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
