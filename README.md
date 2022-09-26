@@ -17,3 +17,6 @@ bool isValid = ThaiNationalIdFormat.IsValid("1234567891012");
 
 ## NuGet Link
 [NuGet](https://www.nuget.org/packages/thai-national-id-format-validator/)
+
+## Inspiration
+This plugin is inspired by [thai-id-validator](https://www.npmjs.com/package/thai-id-validator).
