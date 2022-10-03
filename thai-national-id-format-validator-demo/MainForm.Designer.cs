@@ -31,6 +31,7 @@
             this.lblThaiID = new System.Windows.Forms.Label();
             this.tbxThaiID = new System.Windows.Forms.TextBox();
             this.lblResult = new System.Windows.Forms.Label();
+            this.btnGenerateID = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblThaiID
@@ -60,11 +61,22 @@
             this.lblResult.TabIndex = 2;
             this.lblResult.Text = "Invalid";
             // 
+            // btnGenerateID
+            // 
+            this.btnGenerateID.Location = new System.Drawing.Point(346, 69);
+            this.btnGenerateID.Name = "btnGenerateID";
+            this.btnGenerateID.Size = new System.Drawing.Size(86, 34);
+            this.btnGenerateID.TabIndex = 3;
+            this.btnGenerateID.Text = "Generate";
+            this.btnGenerateID.UseVisualStyleBackColor = true;
+            this.btnGenerateID.Click += new System.EventHandler(this.btnGenerateID_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(450, 115);
+            this.Controls.Add(this.btnGenerateID);
             this.Controls.Add(this.lblResult);
             this.Controls.Add(this.tbxThaiID);
             this.Controls.Add(this.lblThaiID);
@@ -85,5 +97,6 @@
         private Label lblThaiID;
         private TextBox tbxThaiID;
         private Label lblResult;
+        private Button btnGenerateID;
     }
 }

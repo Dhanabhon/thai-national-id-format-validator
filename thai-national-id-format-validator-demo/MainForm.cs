@@ -22,5 +22,12 @@ namespace thai_national_id_format_validator_demo
                 lblResult.ForeColor = Color.Red;
             }
         }
+
+        private void btnGenerateID_Click(object sender, EventArgs e)
+        {
+            tbxThaiID.Clear();
+
+            tbxThaiID.Text = ThaiNationalIdFormat.GenerateThaiNationalID();
+        }
     } // class
 } // namespace

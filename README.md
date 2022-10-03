@@ -7,9 +7,13 @@ For example the Thai national ID format validation in C#
 ```C#
 using using thai_national_id_format_validator;
 ```
-2. Example code
+2. Thai National ID Card Number Checking
 ```C#
 bool isValid = ThaiNationalIdFormat.IsValid("1234567891012");
+```
+3. Thai national ID Card Numbers Generating.
+```C#
+String num = ThaiNationalIdFormat.GenerateThaiNationalID();
 ```
 
 ## Demo

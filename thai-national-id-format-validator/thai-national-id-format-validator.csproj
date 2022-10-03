@@ -15,12 +15,12 @@
     <Description>Thai national ID format validation.</Description>
     <PackageProjectUrl>https://github.com/Dhanabhon/thai-national-id-format-validator</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageTags>Thai National ID Format, Validator,</PackageTags>
-    <PackageReleaseNotes>- Fix bug where the IsValid method.</PackageReleaseNotes>
+    <PackageTags>Thai National ID Format, Validator, Generator</PackageTags>
+    <PackageReleaseNotes>- Add a new feature for generating valid Thai national ID card numbers. </PackageReleaseNotes>
     <PackAsTool>True</PackAsTool>
-    <AssemblyVersion>1.1.0.0</AssemblyVersion>
-    <FileVersion>1.1.0.0</FileVersion>
-    <Version>1.1.0</Version>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
+    <Version>1.2.0</Version>
     <Company>Tom Dhanabhon</Company>
   </PropertyGroup>
 
