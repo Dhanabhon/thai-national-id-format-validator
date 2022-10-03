@@ -21,3 +21,6 @@ String num = ThaiNationalIdFormat.GenerateThaiNationalID();
 
 ## NuGet Link
 [NuGet](https://www.nuget.org/packages/thai-national-id-format-validator/)
+
+## Inspiration
+This plugin is inspired by [thai-id-validator](https://www.npmjs.com/package/thai-id-validator).
