@@ -5,7 +5,7 @@ For example the Thai national ID format validation in C#
 ## How to use?
 1. Import the Thai national ID format validator to your project.
 ```C#
-using using thai_national_id_format_validator;
+using thai_national_id_format_validator;
 ```
 2. Thai National ID Card Number Checking
 ```C#
